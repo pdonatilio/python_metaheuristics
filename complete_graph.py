@@ -30,5 +30,3 @@ class GraphGenerator(object):
             for node in self.graph[i]:
                 print('[%d to %d the cost is %d]' % (i, node, self.cost[i, node]), end='\t ')
             print()
-
-    
