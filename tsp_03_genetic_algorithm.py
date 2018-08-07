@@ -146,4 +146,3 @@ def tsp_genetic(graph, population_size, generations, tournamen_size, crossover_p
             if i == 0:
                 print('Iteration %d:\nBest individual %s - Cost: %d' % (i + 1, str(best_individual), get_fitness_score(best_individual)))
     print('Iteration %d:\nBest individual %s - Cost: %d' % (i + 1, str(best_individual), get_fitness_score(best_individual)))
-

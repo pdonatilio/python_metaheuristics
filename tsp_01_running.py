@@ -3,7 +3,7 @@ from tsp_00_graph_generator import *
 from tsp_02_simulated_annealing_random import *
 from tsp_03_genetic_algorithm import *
 
-#Generate the Graph Example
+# Generate the Graph Example
 graph = GraphGenerator(16)
 graph.generate_graph()
 
