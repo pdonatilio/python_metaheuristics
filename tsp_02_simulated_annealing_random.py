@@ -37,4 +37,4 @@ def tsp_random(graph, loop):
         best_circuit, best_score = create_circuit(best_circuit, best_score)
 
         # time.sleep(1)
-    print('Iter %d: Best circuit: %s - score %d' % (i + 1, str(best_circuit), best_score))
+    print('Iteration %d - Best circuit: %s - Score: %d' % (i + 1, str(best_circuit), best_score))
